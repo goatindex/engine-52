@@ -7,8 +7,12 @@
 - **[Pattern Language](../../wiki/Pattern-Language)** — the normative design system (v0.1): 25 patterns across three scales, network map, generative sequence, evolution protocol (Appendix B), and Evidence Register (Appendix C).
 - **[Design Analysis](../../wiki/Design-Analysis)** — the founding analysis: design-space location, comparable games, novelty assessment, strengths, gaps, known dilemmas, and the original 20 design questions (§7) that the patterns tease out.
 - **[Annotated Bibliography](../../wiki/Annotated-Bibliography)** — the single source of truth for references and precedents. Citation keys here are used by the pattern language's Evidence Register. New references enter here first.
-- **[Minimum Prototype](../../wiki/Minimum-Prototype)** — *Salvage Run* v0.1: two crews, six turns, three systems. The first evidence-gathering instrument; playtest reports go in [playtests/](playtests/).
-- **[Reference Card](../../wiki/Reference-Card)** — one-page table reference for *Salvage Run*; print one per crew.
+## Worked games
+
+Games built on the engine live under [worked-games/](worked-games/), one folder per setting, each with its own `mvp/` and `playtests/`. Worked examples are the mines the pattern language is refined from (Appendix B protocol).
+
+- **[space-salvagers](worked-games/space-salvagers/)** — *Salvage Run* v0.1 (tabletop register): the minimum two-crew prototype and its [reference card](worked-games/space-salvagers/mvp/reference-card.md). Also on the wiki: [Minimum Prototype](../../wiki/Minimum-Prototype), [Reference Card](../../wiki/Reference-Card). Playtest reports: [playtests/](worked-games/space-salvagers/playtests/).
+- *pandemic-hospitals* — planned (larp/megagame register).
 
 ## How the pieces relate
 
