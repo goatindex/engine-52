@@ -7,6 +7,7 @@
 - **[Pattern Language](../../wiki/Pattern-Language)** — the normative design system (v0.1): 25 patterns across three scales, network map, generative sequence, evolution protocol (Appendix B), and Evidence Register (Appendix C).
 - **[Design Analysis](../../wiki/Design-Analysis)** — the founding analysis: design-space location, comparable games, novelty assessment, strengths, gaps, known dilemmas, and the original 20 design questions (§7) that the patterns tease out.
 - **[Annotated Bibliography](../../wiki/Annotated-Bibliography)** — the single source of truth for references and precedents. Citation keys here are used by the pattern language's Evidence Register. New references enter here first.
+- **[Minimum Prototype](../../wiki/Minimum-Prototype)** — *Salvage Run* v0.1: two crews, six turns, three systems. The first evidence-gathering instrument; playtest reports go in [playtests/](playtests/).
 
 ## How the pieces relate
 
