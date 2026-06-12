@@ -167,7 +167,7 @@ The point of playing this is to move stars in the pattern language (Appendix B p
 | The swap teaches roles cold | 8 | Could a new player say what their role wanted by turn 2? |
 | Shrinking hands keep a floor of agency | 14 | Was any player benched by an empty or sealed-up hand? |
 
-**Playtest report:** date, player count, register experience of the group, which rules were misread, the watch-list above, and the three numbers that felt most wrong. File reports in the repo under `playtests/`.
+**Playtest report:** date, player count, register experience of the group, which rules were misread, the watch-list above, and the three numbers that felt most wrong. File reports in the repo under `worked-games/space-salvagers/playtests/`.
 
 ---
 
