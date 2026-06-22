@@ -54,15 +54,31 @@ graph TD
     P11 --> P22[22 TORN HALVES AS CONTRACTS]
     P1 --> P23[23 JOKERS AS FATE]
     P24 --> P25[25 THE FACILITATOR'S KIT]
+    P2 --> P26[26 THE BREATHING HAND]
+    P26 --> P14
+    P9 --> P27[27 SPEND HAS A DESTINATION]
+    P27 --> P11
+    P27 --> P12
+    P7 --> P28[28 THE ASSIST]
+    P28 --> P5
+    P4 --> P29[29 CLOCKS MAKE TIME VISIBLE]
+    P25 --> P29
+    P7 --> P30[30 ROLES THAT PLAY DIFFERENTLY]
+    P30 --> P28
+    P30 --> P27
 ```
 
-**Prerequisites (hard):** 2 before 7; 7 before 8; 9 before 10/11/12/13/14; 16 before 17/21; 17 before 18 and 24.
-**Strong sympathies:** 11 + 22; 12 + 19; 10 + 20; 1(larp) + 18 + 23; 14 + 20.
-**Known tensions:** 12 vs 13 (travelling cards push toward objecthood; high-volume markets push toward currency); 19 vs any face-down randomness; 11 vs 14 (heavy spending plus no replenishment shortens the game sharply); 6 vs 8 (a swap that advantages a leader role makes the leader legible); 15 vs the larp register (role-play wants open talk).
+*Patterns 26–30 are v0.2 candidates (no star, prototype first); they are drawn dashed in spirit — adopt them only after a worked example, per Appendix B.*
+
+**Prerequisites (hard):** 2 before 7; 7 before 8; 9 before 10/11/12/13/14; 16 before 17/21; 17 before 18 and 24. *Candidates:* 2 before 26; 9 before 27; 7 before 28 and 30.
+**Strong sympathies:** 11 + 22; 12 + 19; 10 + 20; 1(larp) + 18 + 23; 14 + 20. *Candidates:* 27 + 11; 28 + 30; 26 + 14.
+**Known tensions:** 12 vs 13 (travelling cards push toward objecthood; high-volume markets push toward currency); 19 vs any face-down randomness; 11 vs 14 (heavy spending plus no replenishment shortens the game sharply); 6 vs 8 (a swap that advantages a leader role makes the leader legible); 15 vs the larp register (role-play wants open talk). *Candidates:* 28 vs 6 (a frictionless lend pulls toward a single coordinating voice); 28 vs 15 (arranging a loan invites the talk Quiet Channels would limit).
 
 ## A suggested generative sequence
 
 1 REGISTER BEFORE RULES → 3 SESSION AS LIFESPAN → 4 THREE-TIER GOALS → 2 ONE DECK PER TEAM → 7 SUITS AS ROLES → 9 CARD LIFECYCLE (choose your mix of 10/11/12) → 13 OBJECT OR COIN → 16 CLOSED MARK GRAMMAR → 17 THE MARK LADDER → then the remaining patterns as your setting calls for them, finishing always with 24 EVERY HAND PLAYABLE and 25 THE FACILITATOR'S KIT.
+
+*If you adopt the v0.2 candidates, slot them by the force they serve: 26 THE BREATHING HAND and 27 SPEND HAS A DESTINATION immediately after 9 (they refine the lifecycle); 28 THE ASSIST and 30 ROLES THAT PLAY DIFFERENTLY after 7 (they shape the team and are the paired answer to quarterbacking); 29 CLOCKS MAKE TIME VISIBLE anywhere after 4. Prototype each before a design leans on it.*
 
 ---
 
@@ -93,6 +109,8 @@ The standard 52-card deck is the only component that is universally available, c
 Therefore: **each team receives one standard deck at setup, and the deck is the team's entire economy. Resist adding bespoke card components; spend the deck's unused structure (rank bands, face cards, aces, jokers, colours) before inventing anything.**
 
 *Completed by: SUITS AS ROLES (7), CARD LIFECYCLE (9), JOKERS AS FATE (23).*
+
+*Amended by THE BREATHING HAND (26, candidate): the 52 is the team's stable **starting** capacity and seed identity, not a hard ceiling on its working hand. Once cards circulate through feeders and between teams (SPEND HAS A DESTINATION, 27; CARDS THAT TRAVEL, 12), the working hand can be designed to exceed or stay bounded by the opening deal — a deliberate open- or closed-economy choice.*
 
 ## 3. SESSION AS LIFESPAN ★★
 
@@ -192,6 +210,8 @@ Therefore: **before designing any game system, write the lifecycle sentence: "In
 
 *Completed by: 10, 11, 12, 13, 14.*
 
+*Refined by SPEND HAS A DESTINATION (27, candidate): the "spend it forever" verb is the permanent rung of a recoverability ladder, not the only destination — most spends route to a default sink automatically; only the rare, weighty ones are declared.*
+
 ## 10. RETURN, MARKED ★
 
 *A resolution of CARD LIFECYCLE (9); the engine's default verb.*
@@ -253,6 +273,8 @@ Therefore: **rule that an unmarked card is fungible and a marked card is unique;
 If the design embraces shrinkage, design the floor: a player at three cards should face the most interesting decisions of their session, not the fewest. Devices: SCARS AS POWERS (20) so degraded cards gain late-game value; systems whose costs scale down as crises peak; roles whose power derives from *others'* cards (the coordinator spends nothing). If the design rejects shrinkage, add replenishment — but the only on-theme source is other hands and other teams (CARDS THAT TRAVEL, 12); resist introducing a fresh draw pile, which dilutes the one-deck identity and breaks the finite-capacity legibility of ONE DECK PER TEAM (2).
 
 Therefore: **either design scarcity as the explicit arc with a protected floor of agency, or replenish exclusively through circulation — never through new cards.**
+
+*Reframed by THE BREATHING HAND (26, candidate): shrinkage is **one trajectory** of a hand that breathes — a hand can also grow through acquisition or turn over at no net change. Design the rate and direction per role deliberately; do not assume contraction is the default.*
 
 *Sim profile (S2): Sonnet · tier 3 · 4 seats · smoke [Coup-family — adjacent] · multi-seed + 2 design variants. The harness built an escalating "ante" (per-round upkeep) and tested two variants. (a) Pay-or-lose-a-card is a direct instance of elimination-by-instalments and produced the warned death-spiral — the trailing player benched while play continues. (b) Then the* therefore's *"protected floor" was simulated by removing the card-loss: the death-spiral vanished (zero ante card-losses in the event log) but the failure RELOCATED to economic atrophy — a coin-only ante grinds everyone to a low-coin stall (smoke-t3-46, harness finding F023). This is strong confirmation that 14's therefore is load-bearing in BOTH halves: a protected floor alone is insufficient; it needs the §20 SCARS-AS-POWERS catch-up (the 14+20 sympathy). A first direct test of that catch-up (smoke-t3-47) was inconclusive — the game collapsed at round 2, before the ante escalated, and the catch-up rule proved illegible — so whether 20 resolves the atrophy is still open. The 11-vs-14 tension also held — heavy upkeep without circulation shortened games sharply. Levers logged in Appendix D.*
 
@@ -382,20 +404,119 @@ Therefore: **specify the kit as part of the design, one line per tool, with quan
 
 ---
 
+# SCALE EXTENSIONS — v0.2 CANDIDATES (no star, prototype first)
+
+*These five patterns arrived in the "Design Exploration — Updated" working notes. They are full patterns in form (Appendix B.6) but unbuilt: every one is a live hypothesis and none has earned a star or an S-mark. They are grouped here, rather than interleaved by number, so the tested core (1–25) and the candidate layer stay visually distinct. Adopt one only after a worked example exercises its therefore.*
+
+## 26. THE BREATHING HAND (no star — prototype first)
+
+*Amends ONE DECK PER TEAM (2); reframes SHRINKING HANDS (14). Scale II.*
+
+**A team needs a legible, fair starting position, but a living economy needs cards to move in and out of hands at the rates the fiction sets — and if the rules silently assume a fixed, suit-partitioned hand, every recovery, market draw, and lend reads as an exception rather than as the normal weather of the game.**
+
+The opening deal is correct only at setup: it is the engine's stable, balanced baseline — one deck per team, divided by suit, so every player begins with a legible, role-shaped hand. After turn one, the way cards leave and return is deliberately asymmetric. Different roles, suits, and systems move cards across the hand boundary at different rates: a medic who keeps recovering stickered cards and a gunner who spends them permanently are running two different hand-economies inside one team. Shrinkage (SHRINKING HANDS, 14) is one trajectory; growth through acquisition and markets, and turnover at no net change, are others.
+
+Decide whether the team's working hand can exceed its starting 52 (an open economy, fed by travel and feeders) or is bounded by it (a closed-economy choice). That decision, not an accident of spending, should set the shape of every hand over the session.
+
+Therefore: **treat the opening hand as a baseline, not a cap. State, per design, the rate and direction at which each role's hand grows and shrinks, and let those rates differ deliberately. Make hand size a designed curve.**
+
+*Links: amends ONE DECK PER TEAM (2); constrains CARD LIFECYCLE (9) and SPEND HAS A DESTINATION (27); enables THE ASSIST (28); supplies the hand-flow signatures of ROLES THAT PLAY DIFFERENTLY (30); makes SHRINKING HANDS (14) a chosen trajectory rather than a default.*
+
+## 27. SPEND HAS A DESTINATION (no star — prototype first)
+
+*A refinement of CARD LIFECYCLE (9); the permanent rung is SPEND AS SACRIFICE (11). Scale II.*
+
+**"Spend" is a choice of where a card goes — but a consumable economy needs the drama of permanent loss *and* a way to keep cards flowing, and if every spend must be declared the ladder's elegance becomes a per-turn decision tax that a one-shot's teach budget cannot afford.** Treat every spend as permanent and the table starves; treat none as permanent and the drama evaporates; make players narrate every spend's fate and the engine's tightest constraint is blown on bookkeeping.
+
+Spending is a ladder of destinations with increasing recoverability:
+
+| Destination | What happens | Recovers how | Theme it serves |
+|---|---|---|---|
+| Permanent (sacrifice) | Torn / surrendered / burned. Gone for the session. | Never. | Irreversible cost, ritual, treaty (TORN HALVES, 22). |
+| Tapped / exhausted | Card stays, turned, spent for now. | Untaps on a reset, heal, or repair trigger. | Fatigue, cooldowns, capacity that returns. |
+| Team pile | Discard only your team draws from. | Your team redraws it later (salvage, recall). | Internal stockpile, institutional memory. |
+| System pile | Pile tied to the system that consumed it. | Redraws only within that system. | Domain economies; a system that feeds itself. |
+| Global feeder | Facilitator-managed pool. | Facilitator tops up feeders, markets, other teams. | Open economy, trade, scarcity you can buy out of. |
+
+The destination must not be a decision on every spend. Give each card and each system action a **default sink** (printed, in the boxed register, as an "exhaust to ___" line); the action's sink overrides the card's. Normal spending then routes automatically and silently. Reserve *declaration* for two weighty cases: **voluntary escalation**, where a player pushes a spend one rung toward permanent to buy a stronger effect or honour the fiction (burn the card for the finishing blow); and **forced escalation**, where a failure pushes a spend one rung toward permanent (the forced-consequences module, wired into the economy). **De-escalation** — pulling a card back up the ladder toward recoverability — is never free and never default; it is a granted power one role owns (ROLES THAT PLAY DIFFERENTLY, 30).
+
+Conditions vary the live rungs. A fast convention one-shot may run only two (tapped vs. permanent); an institutional megagame lights all five and leans on the global feeder for inter-team trade (CARDS THAT TRAVEL, 12). Recirculation also reframes "decking out": an emptied deck can mean game-end, a disabled function, or a degraded one (see CLOCKS MAKE TIME VISIBLE, 29) — recirculation makes depletion hard to reach, so the theme, not the rules, decides.
+
+Therefore: **give each card and each system action a default sink on the recoverability ladder, so normal spending routes automatically and silently. Reserve declaration for two weighty cases — a player voluntarily escalating one rung toward permanent for effect, and a failure forcing that escalation. Make de-escalation a granted power, never a default.**
+
+*Links: refines CARD LIFECYCLE (9); permanent rung = SPEND AS SACRIFICE (11); global feeder powers CARDS THAT TRAVEL (12); softens SHRINKING HANDS (14); escalation is the forced-consequences module (Appendix E); de-escalation is owned by ROLES THAT PLAY DIFFERENTLY (30); facilitator-managed rungs depend on REGISTER BEFORE RULES (1) and THE FACILITATOR'S KIT (25).*
+
+## 28. THE ASSIST (no star — prototype first)
+
+*Within SUITS AS ROLES (7) and QUIET CHANNELS (15); completes COOPERATION YOU CANNOT REFUSE (5). The cooperation primitive. Scale II.*
+
+**Suit partition guarantees interdependence but not moment-to-moment interaction — four players can sit in parallel, each tending their own suit, cooperating only through shared goals and contested costs; teams want the pleasure of coordinating and planning together, but open coordination invites one voice to play four hands.**
+
+The fix is a cheap, symmetric, bounded move any team member can make with any other, once per turn: lend one card across the team. It is a constant standing invitation to coordinate, communicate, and plan together — the behaviours the engine most wants to encourage — without becoming a channel for one voice to run four hands. The lifecycle of the lent card is declared by the design (CARD LIFECYCLE, 9): it returns to the lender, returns marked, is consumed in the receiver's hands, or stays as an internal transfer. The default should be "returns," so lending stays low-stakes and frequent.
+
+It is bounded so it cannot become quarterbacking: once-per-turn-per-player caps the volume, and QUIET CHANNELS (15) still governs what may be said while arranging it. State the tension honestly — a frictionless lend pulls against NO LEGIBLE LEADER (6) and QUIET CHANNELS (15). The once-per-turn bound and the structural privacy of suit partition are the counterweights, but the *durable* defence is decision-type differentiation: a dominant voice can direct lends it cannot make itself useless against a seat whose exclusive move it does not possess (ROLES THAT PLAY DIFFERENTLY, 30). In the larp register, arranging a loan is content — a character asking another for help — so the constraint relaxes naturally.
+
+Therefore: **give every player a basic move, usable once per turn, to lend one card to any teammate. Keep it symmetric, cheap, and bounded; default the lent card to "returns" so the move stays frequent and low-stakes; let the design raise the stakes (returns marked, or is consumed) only where the fiction wants weight.**
+
+*Links: completes COOPERATION YOU CANNOT REFUSE (5); bounded by QUIET CHANNELS (15) and NO LEGIBLE LEADER (6); its lent-card fate is a CARD LIFECYCLE (9) decision; distinct from CARDS THAT TRAVEL (12), which moves ownership between teams, not within one; its anti-quarterbacking guarantee leans on ROLES THAT PLAY DIFFERENTLY (30).*
+
+## 29. CLOCKS MAKE TIME VISIBLE (no star — prototype first)
+
+*Within REGISTER BEFORE RULES (1) and THREE-TIER GOALS (4). Scale I.*
+
+**A session needs pacing and stakes that don't depend on any one team's speed; deck depletion is one clock and ties the game to a single theme of exhaustion — but without a visible clock the shared tier is abstract and the endgame arrives by accident, while too many clocks make tracking compete with the card economy.**
+
+Explicit clocks give facilitators a pacing tool independent of how fast any one team plays, and let the shared tier of THREE-TIER GOALS (4) acquire a visible backbone. All are built from spare-deck cards or simple tracks, so they cost nothing beyond THE FACILITATOR'S KIT (25):
+
+| Clock | Form | Advances when | Best for |
+|---|---|---|---|
+| Crisis deck | A face-down line; one flips each turn. | Time passes (a card flips on schedule). | External threat, an objective timer, suit-flavoured emergencies. |
+| Team clock | A short track on the team's board (e.g. 3 slots). | That team fails a play or takes harm. | Per-team attrition, a heal/repair sub-loop. |
+| Shared clock | One large central track all teams watch. | Any unaddressed crisis; walked back by cooperation. | Collective catastrophe; making cooperation instrumentally necessary (5). |
+| Facilitator clock | Control holds it, hidden or visible. | Control's judgement, or a defined fictional trigger. | Megagame/larp; injects, escalation, fate. |
+| Threshold condition | A counter, not a fuse. | "Do X N times to complete"; "if X happens Y times before A happens Z times." | Mission/project completion; race and tipping-point logic. |
+
+Tie the depletion question explicitly to the clock layer. An emptied deck has three coherent readings: **game-end** (the session is over when a deck runs out — the classic consumable arc); **function-disabled** (the resource the deck represents switches off, permanently or until a repair/heal/reset refills it); **function-degraded** (the system keeps running at reduced capacity — a soft slide, not a hard stop). If cards recirculate (SPEND HAS A DESTINATION, 27), depletion is hard to reach and decking-out stops being central; if they don't, depletion *is* the clock. The theme chooses.
+
+Therefore: **choose clocks that express the theme — crisis deck, team track, shared track, facilitator countdown, or threshold condition — and prefer one primary clock per game with the rest optional. Decide separately whether an emptied deck ends, disables, or degrades its function.**
+
+*Links: gives THREE-TIER GOALS (4) a visible shared track; built from THE FACILITATOR'S KIT (25); adjudication bandwidth set by REGISTER BEFORE RULES (1); interacts with SPEND HAS A DESTINATION (27) — recirculation lowers the centrality of depletion clocks.*
+
+## 30. ROLES THAT PLAY DIFFERENTLY (no star — prototype first)
+
+*Within SUITS AS ROLES (7); against quarterbacking, with QUIET CHANNELS (15). Scale II.*
+
+**Suit gives each seat different cards (which you hold) and the turn-zero swap gives each a different opening shape — both are *resource* differentiation; but if roles differ only in resources, a dominant player can pilot every seat by directing card use, and teams want indispensable, distinct seats that resist being optimised from outside.**
+
+Add *decision-type* differentiation: each role has one or two moves no one else can make — choices that are different in kind. This is the most durable answer to quarterbacking, because a leader cannot out-play a seat whose moves they do not possess. Four building blocks:
+
+- **Role-exclusive system access.** One system per game only a given role can initiate (the planner opens the market; the engineer initiates repairs). Indispensability without making any seat a superset of another.
+- **Role-exclusive marks.** A mark only one role may apply (the medic's circle-sticker; the engineer's stencil-punch), so cards carry an audit trail of who touched them. Extends CLOSED MARK GRAMMAR (16) with role-gated symbols.
+- **Moves that require a response.** One seat's action mandates another seat's choice (a lockdown the engineer must answer; an offer that cannot be ignored). Guarantees no role is a spectator and reinforces COOPERATION YOU CANNOT REFUSE (5).
+- **Asymmetric hand-flow signatures.** Tie each role to a different breathing pattern (THE BREATHING HAND, 26): the logistician's hand turns over fast through the feeder; the planner's grows by lending and recall; the gunner's shrinks through permanent spend. The role's economy *is* its identity.
+
+A worked split: the old "broker" role reads better as two. As the **Planner** it is an option-generator — recall, lending facilitation, look-ahead — operating on THE ASSIST (28) and the recovery piles. As the **Logistician** it is a circulation manager — moving cards between piles, working the feeder and market, converting depletion into supply, and owning de-escalation on the SPEND HAS A DESTINATION (27) ladder. Most games want one or the other, not both in a single seat; which you pick is set by whether the game's pressure is planning or supply.
+
+Therefore: **give each role at least one move that is different in kind — an exclusive system, an exclusive mark, a move that compels another seat's response, or a distinct hand-flow signature — so the seat cannot be played well by anyone who is not in it. Keep the exclusive move simple to execute even where its consequences are deep.**
+
+*Links: completes SUITS AS ROLES (7) and QUIET CHANNELS (15); exclusive marks extend CLOSED MARK GRAMMAR (16); response-moves reinforce COOPERATION YOU CANNOT REFUSE (5); hand-flow signatures draw on THE BREATHING HAND (26); owns de-escalation on the SPEND HAS A DESTINATION (27) ladder; the durable counterweight THE ASSIST (28) leans on.*
+
+---
+
 ## Appendix A — From the design questions to the patterns
 
 | Question (analysis doc §7) | Pattern(s) |
 |---|---|
-| 1–3 economy lifecycle, replenishment, play-count arithmetic | 9, 10, 11, 12, 14 |
+| 1–3 economy lifecycle, replenishment, play-count arithmetic | 9, 10, 11, 12, 14, 26, 27 |
 | 4 fungible vs unique | 13 |
 | 5–6 hidden info, back-marks, face-down randomness | 15, 19 |
 | 7–9 mark types, authority, caps, torn halves | 16, 17, 18, 21, 22 |
 | 10 accessibility variant | 24, 25 |
-| 11–12 goal scoring and tier outcomes | 4, 5 |
-| 13 quarterbacking | 15 |
-| 14 inter-team touchpoints | 5, 12, 22 |
-| 15–16 turn structure, pacing of ruin | 1, 3, 21 |
-| 17 engine vs SRD | the language itself; settings select and re-skin patterns |
+| 11–12 goal scoring and tier outcomes | 4, 5, 29 |
+| 13 quarterbacking | 15, 28, 30 |
+| 14 inter-team touchpoints | 5, 12, 22, 27 |
+| 15–16 turn structure, pacing of ruin | 1, 3, 21, 29 |
+| 17 engine vs SRD | the language itself; settings select and re-skin patterns; optional modules (Appendix E) |
 | 18 tabletop vs larp register | 1, 15, 18, 23 |
 | 19 campaign mode | 3 (variant) |
 | 20 facilitator kit | 25 |
@@ -446,6 +567,11 @@ Citation keys refer to the project's annotated bibliography. *Hyp.* marks the po
 | 23 | JOKERS AS FATE | Fate-deck authority [malifaux]; control injects [wallman]. |
 | 24 | EVERY HAND PLAYABLE | Board game accessibility research [heron-mlu]; shape-plus-colour coding (standard accessible design practice). |
 | 25 | THE FACILITATOR'S KIT | Megagame and larp kit practice [wallman], [koljonen2019]. |
+| 26 | THE BREATHING HAND | *Hyp. throughout.* Influence: hand-management economies [engelstein2019]; the asymmetric-flow framing is new and pending a bibliography entry (Appendix B.3). |
+| 27 | SPEND HAS A DESTINATION | *Hyp. throughout.* Influence: tap/exhaust resource sinks (fate-deck and tableau economies) — pending bibliography entry; permanent rung inherits [tencandles], [exit]. |
+| 28 | THE ASSIST | *Hyp. throughout.* Influence: constrained-communication coop [thecrew], [hanabi]; dominant-player problem [zagal2006]. |
+| 29 | CLOCKS MAKE TIME VISIBLE | *Hyp. throughout.* Influence: megagame control pacing [wallman]; the explicit-clock/threshold lineage (PbtA, Blades in the Dark) is new and pending a bibliography entry. |
+| 30 | ROLES THAT PLAY DIFFERENTLY | *Hyp. throughout.* Influence: in-team role asymmetry [captainsonar]; decision-type differentiation (PbtA playbooks) is new and pending a bibliography entry. |
 
 ## Appendix D — Simulation Evidence Register (S-track)
 
@@ -468,6 +594,20 @@ Evidence from the project's AI playtest harness, keyed to harness **session ids*
 
 The candidate child pattern (ante retiming) is parked here deliberately: it has a plausible distinct problem (the pacing of catch-up pressure) but only adjacent, single-register evidence — below the Appendix B.6 bar for entering the language as a full pattern.
 
-## Appendix D — Status
+## Appendix E — Optional modules (toggleable subsystems)
 
-This language is v0.1 and mostly unbuilt. The intended first act of evidence-gathering is the minimum prototype from the design analysis: one team, three systems with different card appetites, the three-mark grammar, six turns — then the first full worked example in each register.
+Three mechanics from the exploration notes share a property: they couple card *state* to the *fiction*, and they are valuable in some games and intrusive in others. They are documented as an explicit opt-in set — each with its default, its dependencies, and what it excludes — rather than baked into the base engine. A designer building a fast convention one-shot leaves them off; a designer building an institutional larp turns them on. A worked game declares its module set in one line, the way it declares its register (1) and its lifecycle sentence (9).
+
+All three default **off**. All are candidates (no star); prototype before reliance.
+
+| Module | What it does | Depends on | Excludes / tension |
+|---|---|---|---|
+| Action-triggered marks | A card play automatically marks the card as a consequence, rather than the player choosing to mark. | CLOSED MARK GRAMMAR (16) must define the trigger, not just the meaning. | Excludes purely economic marking; pushes hands toward marked state faster, so SCARS AS POWERS (20) and TERMINAL FORM (21) matter sooner. |
+| Forced card consequences | Failure (or a hard outcome) imposes a card action — tear, sticker, surrender — the player did not choose. This is the *forced escalation* of SPEND HAS A DESTINATION (27). | A defined failure condition; WITNESSED MARKING (18) to adjudicate. | Must respect EVERY HAND PLAYABLE (24): the no-tear substitute applies to forced tears too. Griefing risk — keep it off in competitive registers unless the fiction wants weight. |
+| Public-discard intel | Spent cards sit face-up and ordered, readable by all teams as a record of activity. | A placement rule for spent cards; reads richest with CARDS THAT TRAVEL (12). | Pulls against NO LEGIBLE LEADER (6): visible piles imply visible standing — fine in coop/larp, risky in competitive tabletop. *Verify the intel is actually read before committing it.* |
+
+These are not separate patterns so much as conditional settings on patterns that already exist (16, 18, 24, 6, 27). Turned on together, action-triggered marks and forced consequences make the deck a harm-record that fills itself — the PbtA insight made physical: suffering happens to the cards because of what players do, not as a separate accounting step. Turned off, marking stays a deliberate economic verb. Both are legitimate games.
+
+## Appendix F — Status
+
+This language is v0.1 and mostly unbuilt; patterns 26–30 and the Appendix E modules are v0.2 candidates pending their first prototype. The intended first act of evidence-gathering is the minimum prototype from the design analysis: one team, three systems with different card appetites, the three-mark grammar, six turns — then the first full worked example in each register. The thinner Scale-0 teaching configuration (see the design-exploration follow-up) is the cheapest first S-track run.

@@ -43,6 +43,8 @@ A missing tool is a missing rule. Do not start without the punches and stickers.
    | ♦ Diamonds | **Broker** | finance: trade, contracts, the only cross-crew voice |
 
    *Three-player crew:* one player takes both ♠ and ♦ (Breaker-Broker). Both crews must use the same arrangement.
+
+   > *Design note (ROLES THAT PLAY DIFFERENTLY, candidate pattern 30).* The Broker currently bundles two kinds of decision: **planning** (look-ahead, lending facilitation, recall) and **logistics** (trade, the feeder/market, converting depletion into supply). If this game grows past the MVP, split it: a **Planner** seat that operates on THE ASSIST (28) and the recovery piles, and a **Logistician** seat that works the market and owns de-escalation on the spend-destination ladder (27). Most crews want one or the other, set by whether the pressure is planning or supply — not both in one seat. The MVP keeps them fused because at six turns and one cross-crew voice the split would cost more teach than it earns; this is a deliberate Scale-0 compression, not an oversight.
 3. **Turn-zero swap (Pattern 8).** Each role has a band it collects: **Breaker — face cards (J Q K); Wrench — ranks 2–5; Medic — ranks 6–10; Broker — Aces.** Before turn one, each player gives each teammate one card from *that teammate's* band (you choose which). Every pair of teammates transacts exactly once. Hands end at 13 cards, visibly shaped by role: the Breaker bristles with face cards, the Wrench holds the low grist.
 4. **Secret goals.** Each player secretly chooses one individual goal from the list for their role (see Goals) and writes its number hidden on the score pad fold.
 5. Put the Site Schedule where both crews can read it. Choose a start crew by any fair method.
