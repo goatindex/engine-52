@@ -20,6 +20,8 @@ To design a game with the engine, do as Alexander instructs: choose the patterns
 
 **Confidence marks.** ★★ means the pattern is strongly evidenced in comparable published games and you should treat departing from it as a deliberate act. ★ means the reasoning is sound but the pattern is untested in this engine. No star means the pattern is a live hypothesis: prototype it before a design leans on it. Each pattern's supporting games and writing are listed in the Evidence Register (Appendix C), keyed to the project's annotated bibliography. How marks are upgraded, and how the language itself changes, is governed by Appendix B.
 
+**Simulation marks (the S-track).** Separate from the stars, an optional **S0–S4** mark records how far a pattern has been *exercised in simulation* — playtested by AI agents in the project's harness — as opposed to evidenced in published games. The two tracks are deliberately independent: simulation is corroborating, not a substitute for the worked-example evidence that earns a ★, and a strong S-mark never by itself raises a star. The ladder: **S0** — the forces have been simulated but the result is inconclusive, or only the pattern's *problem* (not its *therefore*) is borne out; **S1** — observed in one simulation; **S2** — reproduced across seeds, or exercised at the model tier where the mechanism actually activates; **S3** — holds across at least two registers (game size, team count, or rules complexity) at the appropriate tier; **S4** — holds across that variety including mixed/heavy model line-ups and more than one game. Two rules keep the mark honest. First, it is **model-tier-aware**: a deduction or bluffing pattern that only comes alive when stronger models play cannot claim S2+ from a run of weak ones — the harness's own "funnel" shows some mechanisms are invisible below a capability threshold. Second, S-marks are **monotonic but droppable** — like the stars, an S-level falls when a later, fuller simulation contradicts it. Each S-marked pattern carries a one-line *sim profile* (heaviest model tier, maximum teams, game size/complexity, number of runs); its evidence lives in the Simulation Evidence Register (Appendix D), keyed to the harness session ids.
+
 ---
 
 ## The network
@@ -202,7 +204,7 @@ Therefore: **make return-marked the default outcome of using a card in a game sy
 
 *Completed by: CLOSED MARK GRAMMAR (16), SCARS AS POWERS (20). Sympathy: a story about endurance, institutions, or memory should be built almost entirely on this verb.*
 
-## 11. SPEND AS SACRIFICE ★
+## 11. SPEND AS SACRIFICE ★ · S1
 
 *A resolution of CARD LIFECYCLE (9); the dramatic verb.*
 
@@ -215,6 +217,8 @@ Conditions: convention one-shots can raise the spend rate (the arc must finish i
 Therefore: **attach permanent card loss only to story-irreversible actions, make it the player's choice, and stage it so the table sees it happen.**
 
 *Completed by: TORN HALVES AS CONTRACTS (22). Tension: heavy use of 11 with no replenishment forces SHRINKING HANDS (14) — verify the arithmetic.*
+
+*Sim profile (S1): Sonnet · tier 3 · 4 seats · smoke [Coup-family — adjacent] · n=1. The 11↔14 tension surfaced live: a spend economy with no circulation produced a self-perpetuating "steal-loop" stalemate rather than meaningful sacrifice (harness finding F020). Single session — corroborating, not conclusive. Evidence in Appendix D.*
 
 ## 12. CARDS THAT TRAVEL (no star — prototype first)
 
@@ -240,7 +244,7 @@ Story conditions set the drift rate. An institutional drama wants most of the de
 
 Therefore: **rule that an unmarked card is fungible and a marked card is unique; let every system state whether it accepts coins, objects, or both; and pace the marking rate to control the drift the story wants.**
 
-## 14. SHRINKING HANDS (no star — prototype first)
+## 14. SHRINKING HANDS (no star — prototype first) · S2
 
 *Within CARD LIFECYCLE (9), when spending outpaces replenishment.*
 
@@ -249,6 +253,8 @@ Therefore: **rule that an unmarked card is fungible and a marked card is unique;
 If the design embraces shrinkage, design the floor: a player at three cards should face the most interesting decisions of their session, not the fewest. Devices: SCARS AS POWERS (20) so degraded cards gain late-game value; systems whose costs scale down as crises peak; roles whose power derives from *others'* cards (the coordinator spends nothing). If the design rejects shrinkage, add replenishment — but the only on-theme source is other hands and other teams (CARDS THAT TRAVEL, 12); resist introducing a fresh draw pile, which dilutes the one-deck identity and breaks the finite-capacity legibility of ONE DECK PER TEAM (2).
 
 Therefore: **either design scarcity as the explicit arc with a protected floor of agency, or replenish exclusively through circulation — never through new cards.**
+
+*Sim profile (S2): Sonnet · tier 3 · 4 seats · smoke [Coup-family — adjacent] · multi-seed + 2 design variants. The harness built an escalating "ante" (per-round upkeep) and tested two variants. (a) Pay-or-lose-a-card is a direct instance of elimination-by-instalments and produced the warned death-spiral — the trailing player benched while play continues. (b) Then the* therefore's *"protected floor" was simulated by removing the card-loss: the death-spiral vanished (zero ante card-losses in the event log) but the failure RELOCATED to economic atrophy — a coin-only ante grinds everyone to a low-coin stall (smoke-t3-46, harness finding F023). This is strong confirmation that 14's therefore is load-bearing in BOTH halves: a protected floor alone is insufficient; it needs the §20 SCARS-AS-POWERS catch-up (the 14+20 sympathy). A first direct test of that catch-up (smoke-t3-47) was inconclusive — the game collapsed at round 2, before the ante escalated, and the catch-up rule proved illegible — so whether 20 resolves the atrophy is still open. The 11-vs-14 tension also held — heavy upkeep without circulation shortened games sharply. Levers logged in Appendix D.*
 
 ## 15. QUIET CHANNELS ★
 
@@ -310,7 +316,7 @@ Two coherent resolutions exist; drifting between them ruins both. **Resolution A
 
 Therefore: **rule globally, at design time, whether backs can be marked. If yes, delete face-down randomness from your systems and design the tracking game on purpose; if no, print it as a hard rule.**
 
-## 20. SCARS AS POWERS ★
+## 20. SCARS AS POWERS ★ · S1
 
 *Within RETURN, MARKED (10) and SHRINKING HANDS (14); against the death spiral.*
 
@@ -319,6 +325,8 @@ Therefore: **rule globally, at design time, whether backs can be marked. If yes,
 Break the spiral by making some systems *prefer* scarred cards. The fiction writes itself in any setting: the wreck-dive pays double for cards that have clearly done this the hard way before; the veteran ward trusts the punched triage card; the black market only buys cards with history. Late-game systems especially should have appetites for ruin, so the session's arc rewards the very decay it inflicts. This converts the deck's degradation from a loss curve into a *transformation* curve — early-game value and late-game value live in different cards.
 
 Therefore: **for every mark that worsens a card in some systems, ensure at least one system — preferably a late-game one — where that mark improves it.**
+
+*Sim profile (S1): Sonnet · tier 3 · 4 seats · smoke [Coup-family — adjacent] · n=several. The death-spiral this pattern guards against was observed directly — the unmodified escalating ante drove eliminated-by-instalment players into an unwinnable, disengaged endgame. So far only the* problem *is borne out; the* therefore *(systems that prefer scarred/handicapped players, restoring a catch-up curve) is the next lever to simulate, and the S-level will rise or fall on that run. Evidence in Appendix D.*
 
 ## 21. TERMINAL FORM (no star)
 
@@ -405,6 +413,7 @@ Therefore: **specify the kit as part of the design, one line per tool, with quan
 5. **Splitting and merging.** If a worked example shows a pattern resolving its forces two genuinely different ways under different conditions — beyond what a conditional therefore can carry — split it. If two patterns are always applied together and never apart, merge them.
 6. **New patterns** must arrive in the full form: context, problem-as-forces, conditional discussion, therefore, links, and at least one evidence entry (a published game, research, or a documented playtest). A mechanic without a stated problem is not a pattern.
 7. **Versioning.** The language carries a version number and a change log. Worked examples cite the version they were built against, so a game and the language that shaped it remain mutually interpretable.
+8. **Simulation evidence and the S-track.** Playtests run in a simulation harness (AI agents playing a design) earn a parallel **S0–S4** mark, never a ★. The two tracks stay separate: simulation is corroboration, and the worked-example bar for a star is unchanged. S-marks are **model-tier-aware** — a mechanism that only activates with stronger players cannot be rated from weaker ones — and **monotonic but droppable**, falling when a fuller simulation contradicts them. Simulation evidence is single-sourced to the harness **session ids** (the run artifacts are the truth) and recorded in the Simulation Evidence Register (Appendix D), not the published-works register (Appendix C). Evidence from a *near-neighbour* game (e.g. a Coup-family prototype rather than a true engine build) is admissible but tagged **adjacent**, and adjacency caps the mark at S2 — direct engine evidence is required for S3+.
 
 ## Appendix C — Evidence Register
 
@@ -437,6 +446,27 @@ Citation keys refer to the project's annotated bibliography. *Hyp.* marks the po
 | 23 | JOKERS AS FATE | Fate-deck authority [malifaux]; control injects [wallman]. |
 | 24 | EVERY HAND PLAYABLE | Board game accessibility research [heron-mlu]; shape-plus-colour coding (standard accessible design practice). |
 | 25 | THE FACILITATOR'S KIT | Megagame and larp kit practice [wallman], [koljonen2019]. |
+
+## Appendix D — Simulation Evidence Register (S-track)
+
+Evidence from the project's AI playtest harness, keyed to harness **session ids** (the single source of truth — the run artifacts). Distinct from Appendix C: these are *simulation* observations, marked on the S-track, never promoting a ★. All entries to date are **adjacent** (the harness's `smoke` game is Coup-family, not a true engine build), which caps them at S2 until a worked engine game is run.
+
+| # | Pattern | S | Sim profile | Observation (session) |
+|---|---|---|---|---|
+| 11 | SPEND AS SACRIFICE | S1 | Sonnet · t3 · 4 seats · adjacent · n=1 | A no-circulation spend economy degenerated into a self-perpetuating "steal-loop" stalemate rather than sacrifice [smoke-t3 · F020]. |
+| 14 | SHRINKING HANDS | **S2** | Sonnet · t3 · 4 seats · adjacent · multi-seed + 3 design variants | Two ante variants tested across multiple seeds. (a) **card-loss on shortfall** = elimination-by-instalments death-spiral. (b) **protected floor** (card-loss removed) killed the death-spiral but relocated the failure to economic **atrophy** (F023) — directly confirming 14's *therefore* needs the protected floor PLUS its §20 companion, not the floor alone. **F023 now corroborated at n=2, different seeds**: smoke-t3-46 (7 rounds) and smoke-t3-48-floor_only (5 rounds) both terminated stall:last — atrophy is repeatable, not a seed artefact. 11-vs-14 tension also confirmed. |
+| 20 | SCARS AS POWERS | S1 | Sonnet · t3 · 4 seats · adjacent · n=several | Death-spiral (the *problem*) observed under the unmodified ante; the protected-floor-alone atrophy (smoke-t3-46) shows exactly why the *therefore* is needed. A/B run (smoke-t3-48): floor_only → atrophy again (F023 corroborated); floor_catchup → **new failure mode: runaway lead (F027)** — one seat dominated all 5 rounds, no eliminations, catch-up either blocked (F026: "trailing" was illegible to agents) or mathematically insufficient (steal + half-ante ≈ net-neutral per debrief evidence). Challenge mechanic entirely dormant across 5 rounds. Legibility fixes shipped post-run (view now exposes table_average_coins, trailing_seats, scarred_seats, and per-seat meta.ante). Retest batch (seeds 49–51) in progress to determine whether F027 resolves once agents can read their trailing status. S1 holds until F026 is confirmed fixed in vivo. |
+
+**Worked implementation examples (the levers).** Specific implementations of the patterns above, recorded for reuse — *not* new patterns (a mechanic without its own problem is not a pattern, Appendix B.6):
+
+| Lever | Implements | Note |
+|---|---|---|
+| Escalating ante (per-round upkeep) | 14, 11 | Four variants now observed across multiple seeds: (1) pay-or-lose-a-card → death-spiral; (2) protected-floor-only → atrophy (F023, confirmed n=2: smoke-t3-46 seed 46, smoke-t3-48 seed 48 — repeatable); (3) protected-floor + catch-up, first test (smoke-t3-47) inconclusive (round 2 collapse, F026 illegible); (4) protected-floor + catch-up, A/B seed 48 (smoke-t3-48-floor_catchup) → runaway lead (F027, new failure mode). Whether F027 is a legibility artefact (F026) or a math problem (steal ≈ net-neutral) requires legibility-fixed retest (seeds 49–51, in progress). |
+| Ante **retiming** (when upkeep first bites vs. game length) | 14 — *candidate child* | **Flagged as a candidate child pattern**: a distinct *timing/pacing* force — catch-up pressure must arrive before the game resolves, but not so early it crushes. Revisit as its own full pattern only with direct engine evidence. |
+| Runaway thresholds (caps that throttle a dominant player) | 6, 14 | Targets NO LEGIBLE LEADER's bash-the-leader force; untested in engine. |
+| Steal-loop guard | 11 | The failure mode F020 exposes — circulation without sacrifice loops indefinitely. |
+
+The candidate child pattern (ante retiming) is parked here deliberately: it has a plausible distinct problem (the pacing of catch-up pressure) but only adjacent, single-register evidence — below the Appendix B.6 bar for entering the language as a full pattern.
 
 ## Appendix D — Status
 
