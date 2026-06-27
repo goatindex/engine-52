@@ -2,6 +2,15 @@
 
 *v0.1 — the first evidence-gathering instrument for the Engine 52 pattern language. Two crews, one wreck, six turns. Built against Pattern Language v0.1.*
 
+> **v0.2 playtest note (2026-06-27).** A five-run synthetic playtest validated two balance
+> changes worth promoting into the next revision: **cap selling at one per crew member per
+> turn**, and **expose three sites per turn** (not two) to stop the first one or two seats
+> claiming everything. Two structural lessons also landed: reactor *tension lives at the
+> mid-game Tremor*, not the Final Collapse (end-game cards are worthless, so the Final is
+> always over-fed); and the *cross-crew economy needs a reciprocal mechanic* — a one-way
+> price drew zero trades because aiding a rival is never worth it. Full record:
+> `../playtests/2026-06-27-harness-tier3-report.md`.
+
 ---
 
 ## What this document is

@@ -132,6 +132,49 @@ fell 24 → 7 → 2; reactor fed 0 → 9 times). Recorded in the ledger as F001�
 
 ---
 
-*Filed by the synthetic playtest harness. Raw artifacts: `D:\playtest-runs\space_salvagers-t3-{1..4}`
-and the campaign ledger `D:\playtest-runs\salvagers-c1\ledger.yaml`. v0.1 numbers are
-hypotheses, not tuning — the above are recommendations for v0.2, not verdicts.*
+## v0.2 addendum — levers tested (seed 5)
+
+After the four-run v0.1 campaign, four balance levers were implemented and tested in one
+tier-3 run (seed 5). Verdicts, with promotion calls for the spec:
+
+| Lever | Result (seed 5 vs v0.1) | Verdict |
+|---|---|---|
+| **Sell capped to 1/seat/turn** | sells 39 → 15; site-work rose | **PROMOTE to spec** — fixes F005 |
+| **Three sites exposed per turn** | sites split 9–9 between crews; no idle seats | **PROMOTE to spec** — fixes F007 |
+| **Reactor thresholds raised (24/36 → 30/48/54)** | Tremor tense (33 vs 30); Final still a blowout (170 vs 48) | **PARTIAL** — keep the Tremor raise, drop the Final raise |
+| **`deal` = sell a card to the rival for SP** | **0 trades, again** | **REJECT** — the economy can't be bought |
+
+**Two design conclusions earned this round (these are the real output):**
+
+1. **Gate tension is inherently front-loaded to the Tremor; the Final Collapse cannot
+   create tension.** By turn 6, cards have no other use (they're spent at game end either
+   way), so crews dump everything into the reactor — the Final cleared 170 against a 48
+   threshold. Raising the Final threshold is near-cosmetic. *Recommendation:* tune for
+   drama at the **Tremor** (mid-game, when cards are still contested — 33 vs 30 was a real
+   squeeze); treat the Final Collapse as a near-certain formality unless a crew is
+   collapsing. Consider giving end-game cards a residual use so the Final has stakes.
+
+2. **The cross-crew economy cannot be bought into existence — it needs reciprocity, not a
+   price.** v0.2 made `deal` a *unilateral* profit (give a rival cards, score SP, no consent
+   needed) and Brokers *still* never used it across the whole game. The reason is sound
+   strategy: handing a competitor cards strengthens them, so even free SP isn't worth
+   aiding the enemy. A one-directional incentive will never work. The exchange must be
+   **mutually improving** (both Brokers better their hands) — i.e. the torn-half contract,
+   or a propose/accept barter, is the only structure that can make rival-to-rival trade
+   rational. This is the v0.3 design frontier (see the separate barter-economy experiment).
+
+**v0.3 RESULT (seed 6) — even reciprocity fails.** The reciprocal barter (mutual Pareto
+card-for-card swaps + Brokers able to read the rival's hands + zero SP cost) drew **0 offers
+and 0 trades**. So it is not merely that the *terms* were wrong in v0.2 — agents will not
+initiate cross-crew material transfer at all, because in a winner-take-all game any card
+given to a rival aids the only opponent. Conclusion: improving the trade *mechanism* cannot
+revive the economy. The fix must change the game's **shape** — grow the pie (a mixed-motive
+"survival dividend" so cooperation pays), change **what** is traded so it isn't materially
+"help" (intel, or adversarial sabotage), or give **every role** a cross-team lever plus an
+**intra-team** payoff (brokerage cut + teammate endorsement + an IOU/favour currency). These
+are the v0.4 candidates; the direction (cutthroat vs. mixed-motive; cooperative vs.
+adversarial) is a design call, not a tuning one.
+
+*Filed by the synthetic playtest harness. Raw artifacts: `D:\playtest-runs\space_salvagers-t3-{1..5}`
+and the campaign ledger `D:\playtest-runs\salvagers-c1\ledger.yaml`. v0.1/v0.2 numbers are
+hypotheses, not tuning.*
